@@ -5,6 +5,7 @@ library(tidyverse)
 library(gargle)
 
 # Read the file "us-states.csv" into an R data frame
+data<- read.csv(here("covid-19-data","us-states.csv")) #correct way to read csv for future reference
 data = read.csv("us-states.csv")
 View(data)
 
